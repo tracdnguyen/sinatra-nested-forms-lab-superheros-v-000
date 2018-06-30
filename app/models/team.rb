@@ -4,4 +4,5 @@ class Team
   def initialize(params)
     self.name = params[:name]
     self.motto = params[:motto]
+  end
 end
